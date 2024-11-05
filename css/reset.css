@@ -14,8 +14,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
   font-display: swap;
 }
 
