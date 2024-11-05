@@ -41,20 +41,41 @@ header {
 .boxTitulo {
   display: flex;
   justify-content: space-between;
+}
+.wallp {
+  position: relative;
   & img {
     height: 43rem;
   }
+}
+
+.price {
+  position: absolute;
+  top: 270px;
+  width: 14rem;
+  height: 14rem;
+  background: red;
+  border-radius: 100px;
 }
 .title {
   margin-top: 6rem;
   font-family: "Alfa Slab One", serif;
   & h1 {
     font-size: 12rem;
+    text-shadow: 5px 5px 1px #fee8bc;
   }
   & h2 {
+    text-shadow: 5px 5px 1px #fee8bc;
     font-size: 6rem;
+    margin-top: -3rem;
   }
   & h3 {
+    max-width: 80%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
     font-family: "Montserrat", serif;
+    border: 2px dashed #43200c;
+    padding: 1rem;
   }
 }
