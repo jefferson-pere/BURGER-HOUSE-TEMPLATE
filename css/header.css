@@ -5,10 +5,12 @@ header {
   width: 100%;
   padding: 5.7rem 4.8rem 8rem 5.3rem;
   color: #43200c;
+  
 }
 .boxheader {
   display: flex;
   justify-content: space-between;
+  
 }
 .logo img {
   height: 5.8rem;
@@ -48,6 +50,7 @@ header {
 }
 .wallp {
   position: relative;
+  margin-left: 4rem;
   & img {
     height: 85%;
   }
