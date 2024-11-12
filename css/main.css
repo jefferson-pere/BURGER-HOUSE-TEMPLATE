@@ -75,3 +75,32 @@
     }
   }
 }
+.containerSlide {
+  padding: 8rem;
+}
+.shadow {
+  padding: 3rem;
+  display: flex;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.textSlide {
+  padding: 3rem;
+  max-width: 50rem;
+  & h3 {
+    font-size: 3.2rem;
+    font-family: "Bebas Neue", serif;
+  }
+  & h2 {
+    color: #3d2514;
+    font-size: 3.4rem;
+    font-family: "Alfa Slab One", serif;
+  }
+  & p {
+    margin-top: 5rem;
+    font-family: "Montserrat", serif;
+  }
+}
+.imgSlide img {
+  width: 70rem;
+  height: 50rem;
+}
