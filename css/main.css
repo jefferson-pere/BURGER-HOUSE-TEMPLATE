@@ -100,7 +100,17 @@
     font-family: "Montserrat", serif;
   }
 }
-.imgSlide img {
-  width: 70rem;
-  height: 50rem;
+.imgSlide {
+  position: relative;
+  margin: auto;
+  & img {
+    width: 70rem;
+    height: 50rem;
+  }
+}
+.slide {
+  display: none;
+}
+.active {
+  display: block;
 }
