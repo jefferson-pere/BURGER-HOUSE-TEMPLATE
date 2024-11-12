@@ -5,6 +5,7 @@ header {
   width: 100%;
   padding: 5.7rem 4.8rem 8rem 5.3rem;
   color: #43200c;
+  position: relative;
   
 }
 .boxheader {
@@ -49,17 +50,17 @@ header {
   justify-content: space-between;
 }
 .wallp {
-  position: relative;
-  margin-left: 4rem;
+ 
+  margin-top: 6rem;
   & img {
-    height: 85%;
+    height: 100%;
   }
 }
 
 .boxPrice {
   position: absolute;
-  top: 32rem;
-  left: 3rem;
+  top: 45rem;
+  left: 73rem;
   width: 14rem;
   height: 14rem;
   background: red;
