@@ -49,13 +49,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.wallp {
- 
-  margin-top: 6rem;
-  & img {
-    height: 100%;
-  }
-}
 
 .boxPrice {
   position: absolute;

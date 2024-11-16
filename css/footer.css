@@ -1,0 +1,41 @@
+footer {
+  padding: 6rem;
+  margin: 0 6rem 6rem 6rem;
+  background: url(../img/Layer-footer.png) no-repeat center center;
+  width: 1330;
+  height: 430px;
+  color: white;
+}
+.containerfooter {
+  display: flex;
+}
+.logoFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  max-width: 60%;
+  & img {
+    height: 5.8rem;
+    width: 26rem;
+  }
+  & p {
+    max-width: 85%;
+  }
+  & a {
+    color: white;
+  }
+}
+.emailRede {
+  & img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+.redes {
+  width: 3rem;
+  height: 3rem;
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}

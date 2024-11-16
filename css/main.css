@@ -10,6 +10,10 @@
   & img {
     width: 100%;
     height: 100%;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 .boxExhibitor2 {
@@ -17,9 +21,17 @@
   height: 42.5rem;
   & .img1 img {
     padding: 0 0 3.5rem 4rem;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   & .img2 img {
     padding: 0 0 0 4rem;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 .boxText {
@@ -33,6 +45,11 @@
     background: #ffc045;
     padding: 1rem 4rem;
     font-family: "Bebas Neue", serif;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.3);
+      background: #eea514;
+    }
   }
   & h2 {
     font-size: 4rem;
@@ -58,6 +75,11 @@
 .choice2,
 .choice3 {
   max-width: 33, 3%;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+
   & h3 {
     font-family: "Bebas Neue", serif;
   }
@@ -70,6 +92,11 @@
     padding: 1rem 2rem;
     font-family: "Alfa Slab One", serif;
     background: #bf2222;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.2);
+      background: #e61717;
+    }
     & a {
       color: white;
     }
@@ -81,7 +108,7 @@
 .shadow {
   padding: 3rem;
   display: flex;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .textSlide {
   padding: 3rem;
@@ -104,8 +131,8 @@
   position: relative;
   margin: auto;
   & img {
-    width: 70rem;
-    height: 50rem;
+    width: 60rem;
+    height: 40rem;
   }
 }
 .slide {
